@@ -1,12 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="utf-8">
+  <title>Stackfindover: Sign in</title>
+  <link rel="stylesheet" type="text/css" href="style/user-form.css">
 </head>
+
 <body>
-  
+  <div class="login-root">
+    <div class="box-root flex-flex flex-direction--column" style="min-height: 100vh;flex-grow: 1;">
+      <div class="loginbackground box-background--white padding-top--64">
+      <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
+        <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
+          <h1><a href="index.html" rel="dofollow">Talleres Alfonso</a></h1>
+        </div>
+        <div class="formbg-outer">
+          <div class="formbg">
+            <div class="formbg-inner padding-horizontal--48">
+              <span class="padding-bottom--15">Check your vehicles</span>
+              <form id="vehicle-checker">
+                <div class="field padding-bottom--24">
+                  <div class="grid--50-50">
+                    <label for="password">Your identification</label>
+                  </div>
+                  <input type="password" name="password">
+                </div>
+                <div class="reset-pass">
+                  <input type="submit" value="Check vehicles">
+                </div>
+                <div class="reset-pass">
+                  <a href="#">Forgot your identification?</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
